@@ -1,0 +1,1002 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    font-family: roboto, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/* Header */
+
+.header-top {
+    width: 100%;
+    height: 131px;
+}
+
+.header-top>.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 71px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.items-center {
+    width: 100%;
+    height: 71px;
+    margin: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    width: 100%;
+    height: 71px;
+    text-align: center !important;
+}
+/* Sticky Navbar */
+.sticky {
+    width: 100%;
+    height: 54px;
+    display: initial;
+}
+
+.sticky.navbar {
+    width: 100%;
+    height: 54px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 37.6px;
+    padding: 8.5px 0;
+    position: sticky;
+    top: 0;
+    border-bottom: 0.1px solid #f3f4f5;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.navbar>.container {
+    width: 85%;
+    height: 37px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav>ul.menu>li:first-child>a {
+    padding-left: 0;
+}
+
+nav>ul.menu>li>a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: .05rem;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: "Cinzel";
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #000;
+    transition: 0.4s all;
+}
+
+ul.menu>li.active>a{
+    color: #930077;
+}
+
+nav>ul.menu>li>a:hover{
+    color: #930077;
+}
+
+/* Content */
+
+.content {
+    width: 100%;
+    height: 700px;
+}
+
+.content>.container {
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(../img/hero_1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.content>.container::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.container .sml-text {
+    text-align: center;
+    color: #fff;
+    font-family: 'Cinzel';
+    font-size: 1.5em;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -47%);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Section   */
+.section-home {
+    width: 100%;
+    height: 755px;
+    margin-top: 48px;
+    padding: 112px 0;
+}
+
+.section-home>.container {
+    width: 85%;
+    height: 755px;
+    margin: 0 auto;
+}
+
+.text-sct {
+    width: 100%;
+    height: 180px;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.text-sct>h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: cinzel;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.lrg-txt {
+    display: block;
+}
+
+.text-sct p {
+    text-align: center;
+    font-family: Roboto;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.text-sct p a {
+    text-decoration: none;
+    color: #930077;
+}
+
+.wine-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.wine-products {
+    width: 350px;
+    height: 445px;
+    padding: 0 15px !important;
+    margin: 0 0 48px;
+    position: relative;
+}
+
+.product {
+    width: 350px;
+    height: 350px;
+    background-color: #f3f4f5;
+    position: relative;
+}
+
+.img-prd {
+    width: 350px;
+    height: 359px;
+    margin-top: -17%;
+}
+
+.product-text {
+    width: 350px;
+    height: 52px;
+    background-color: #f3f4f5;
+    padding-bottom: 25px;
+    padding-bottom: 30px;
+}
+
+.hedng-txt {
+    text-align: center;
+    font-size: 18px;
+}
+
+.hedng-txt a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-text>.price {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    color: #808080;
+}
+
+.wine-mini-box {
+    width: 309px;
+    height: 150px;
+    padding: 20px 0;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.wine-products:hover .wine-mini-box {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 309px;
+}
+
+.hedng-txt-2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.delete {
+    text-decoration: line-through;
+    font-size: 18px;
+    font-family: cinzel;
+    color: #808080;
+}
+
+.wine-mini-box>.price {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: cinzel;
+    color: #930077;
+}
+
+.wine-mini-box>.rank {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rank>.icon-star, .icon-star-o {
+    text-align: center !important;
+    font-size: 14px;
+    color: #ffbd39;
+    line-height: 1.7;
+}
+
+.wine-mini-box .btn {
+    width: 118px;
+    height: 15px;
+    margin: auto;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    background-color: #930077;
+    color: #fff;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fas {
+    padding-right: 10px;
+}
+
+.wine-mini-box .btn:hover {
+    background-color: #60004e;
+    color: #fff;
+}
+/* Center */
+
+.center-page{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-image: url(../img/hero_2.jpg);
+    background-attachment: fixed;
+
+}
+
+.center-page::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.3;
+}
+
+.center-page>.container {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+}
+
+.center-img {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/hero_2.jpg);
+    background-size: cover;
+}
+
+.center-page .sml-text {
+    position: absolute;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: cinzel; 
+    top: 30%;
+    left: 50%;
+  
+    transform: translate(-30%, -50%)
+}
+
+.center-page h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    left: 47%;
+    top: 40%;
+    transform: translate(-40%, -47%)
+}
+/* Person Section */
+
+.person-sct {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fa;
+    padding: 112px 0;
+    margin: 0;
+}
+
+.person-sct>.container {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.box-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+
+.items {
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.item {
+    width: 350px;
+    height: 350px;
+}
+
+.item>img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px;
+    border: 4px solid #930077;
+    border-radius: 50%;
+}
+
+.item>p {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: cinzel;
+    color: #808080;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.item>.small-text {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: cinzel;
+    color: #930077;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+/* Blog */
+
+.wines-blog-page {
+    width: 100%;
+    height: 695px;
+    margin: 0;
+    padding: 112px 0;
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', ;
+}
+
+.wines-blog-page>.container {
+    width: 85%;
+    height: 695px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.box-blog {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.post-entry-1 img {
+    width: 350px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.post-entry-1>h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: cinzel;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.post-entry-1>p {
+    margin-top: 10px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: left;
+}
+
+.post-meta a{
+    color: #000;
+}
+
+.post-meta{
+    margin: 0;
+    font-size: 12px;
+    font-family: roboto;
+}
+
+.post-meta span{
+    display: block;
+    color: #808080;
+    font-family: roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    padding: 112px 0;
+}
+
+.footer>.container{
+    width: 85%;
+    height: 136px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.social-icon{
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icon a{
+    width: 40px;
+    height: 40px;
+    background-color: #930077;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: .75px solid #000; */
+    position: relative;
+    transition: 0.4s all ease;
+}
+
+span.icon-facebook::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+    font-size: 14px;
+    content: "\f39e";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.icon-twitter::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+    font-size: 14px;
+    content: "\f099";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.icon-youtube::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+    font-size: 14px;
+    content: "\f167";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.icon-instagram::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 400;
+    font-size: 14px;
+    content: "\f16d";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icon >a:hover{
+background-color: #000;
+margin-top: -15px;
+}
+
+.text-center{
+    width: 100%;
+    height: 40px;
+}
+
+.copyright p{
+    text-align: center ;
+    font-size: 14px;
+    font-family: roboto;
+    color: #808080;
+    margin: 0;
+}
+
+.copyright i{
+    padding-right:0;
+    color: #f23a2e;
+}
+
+.copyright a{
+    text-align: center;
+    color: #930077;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.copyright a:hover{
+    color: #000;
+}
+
+/* About Page */
+
+.about-page-wc{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-image: url(../img/hero_2.jpg);
+    background-attachment: fixed;
+}
+
+.about-page-wc::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.3;
+}
+
+.about-page-wc>.container {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+}
+
+.about-page-wc .sml-text {
+    position: absolute;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: cinzel;
+    left: 50%;
+    top: 30%;
+    transform: translate(-30%, -50%)
+}
+
+.about-page-wc h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    transform: translate(-43%, -50%)
+}
+
+.section{
+    width: 100%;
+    height: 425px;
+    padding: 50px 0;
+    margin: 0
+}
+
+.section .container{
+    width: 85%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.box-intro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 380px;
+    margin-bottom: 50px;
+    box-sizing: content-box
+}
+
+.box-intro .image-abt{
+    width: 540px;
+    height: 380px;
+    padding: 0 15px;
+}
+
+.image-abt figure{
+    width: 540px;
+    height: 360px;
+    margin: 0 0 16px;
+}
+
+.image-abt figure img{
+    width: 540px;
+    height: 360px;
+}
+
+.box-intro .empty{
+    width: 65px;
+    height: 380px;
+    padding: 0 15px; 
+}
+
+.text-bx{
+    width: 445px;
+    height: 380px;
+    padding: 0 15px;
+}
+
+.text-black{
+    width: 445px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.text-bx .text-black h2{
+    font-size: 32px;
+    font-family: cinzel;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.text-bx p{
+    font-size: 16px;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #808080;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.bg{
+    background-color: #f8f9fa;
+}
+
+.service{
+    width: 100%;
+    height: 140px;
+    padding: 64px 0;
+    margin: 0;
+}
+
+.service .container{
+    width: 85%;
+    height: 140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box-intro-srv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140px;
+}
+
+.cell{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 340px;
+    height: 140px;
+    padding-left: 24px;
+    padding-right: 15px;
+}
+
+.cell .text{
+    width: 265px;
+    height: 140px;
+}
+
+.text h2{
+    font-size: 18px;
+    font-family: cinzel;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.7px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.text p{
+    font-size: 16px;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.7;
+    color: #808080;
+    margin: 0;
+}
+
+.b-icon{
+    width: 50px;
+    height: 55px;
+}
+
+span.icon-truck {
+    transform: rotateY(180deq) !important;
+}
+
+.icon-rg{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+span.icon-truck,.icon-refresh,.icon-quest{
+    font-size: 30px;
+    font-weight: 400;
+    color: #930077;
+}
+/* Wines sehfesinin hundurluyu az oldugundan, icinde olanlar yerlesmediyi ucun ,elave classda hundurluk genishlik verdim */
+
+.wines-page{
+    width: 100%;
+    height: 1665px;
+}
+/* Conta */
+
+.contact-info{
+    width: 100%;
+    height: 655px;
+    background-color: #f8f9fa;
+    padding: 112px 0;
+    margin: 0;
+    border: 1 solid #ccc;
+}
+
+.contact-info .container{
+    width: 85%;
+    height: 685px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.section-title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.section-title h2{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: cinzel;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.form-group{
+    width: 553px;
+    padding-right: 20px !important;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form-group.full{
+    width: 100%;
+}
+.form-group:nth-child(2n){
+    padding-right: 0;
+}
+
+.form-group >input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-group >input:focus{
+    border: 1px solid #930077;
+    border-bottom: none;
+}
+
+.form-group >textarea{
+    width: 97%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+
+}
+
+.form-group >textarea:focus{
+    border: 1px solid #930077;
+    border-bottom: none;
+}
+
+.form-group label{
+    display: inline-block;
+    font-size: 16px;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+.button{
+    width: 204px !important;
+    height: 58px;
+    color: #fff;
+    font-size: 16px;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: #930077;
+    background-color: #930077;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: #60004e;
+    cursor: pointer;
+}
+
+.contact h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
